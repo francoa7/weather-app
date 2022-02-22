@@ -1,0 +1,15 @@
+.cards_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    min-height: 78vh;
+    background-color: #ffffffb7;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px 5px #00000033;
+    margin-top: 90px;
+}
+.noCities {
+    align-self: center;
+}

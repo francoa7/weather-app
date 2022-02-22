@@ -1,0 +1,51 @@
+.temp_container {
+    box-shadow: 0 0 15px 5px #00000033;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.75rem;
+    transition: background-color 0.2s;
+    user-select: none;
+    height: fit-content;
+}
+
+.temp_container:hover {
+    background-color: #f5efef;
+}
+
+h4 {
+    margin: 0.75rem 0;
+}
+.temp_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.temp_div > div {
+    margin: 0.75rem 1.75rem;
+}
+.btn_closecard {
+    align-self: flex-end;
+    color: #fff;
+    border: none;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5px;
+    background-color: #dc3545;
+    transition: all 0.25s;
+}
+.btn_closecard:hover {
+    background-color: #a11d2b;
+}
+.btn_closecard:focus {
+    outline: none;
+}
+.ic_temp {
+    background-color: #c9f1fd;
+    border-radius: 20%;
+    object-fit: cover;
+}

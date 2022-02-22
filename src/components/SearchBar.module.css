@@ -1,0 +1,31 @@
+.searchContainer {
+    width: fit-content;
+    border-radius: 0.3rem;
+}
+.btnSearch {
+    background-color: transparent;
+    color: #509de8;
+    border: 1.5px solid #509de8;
+    border-radius: 0.3rem;
+    margin-left: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.75rem;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.btnSearch:hover {
+    background-color: #509de8;
+    color: #fff;
+}
+.btnSearch:focus {
+    outline: none;
+}
+
+.searchInput {
+    padding: 0.3rem 0.75rem;
+    border-radius: 0.3rem;
+    border: 1.5px solid #509de8;
+}
+.searchInput:focus {
+    outline: none;
+}
